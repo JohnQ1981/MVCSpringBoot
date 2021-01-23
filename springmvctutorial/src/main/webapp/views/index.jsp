@@ -38,7 +38,14 @@
 	<h1>Get All Students</h1>
 	<form action = "getStudent1", method = "get">
 		
+		<h1>Get a student by using id...</h1>
+	<form action = "getStudentWithId", method = "get">
+		Enter student id: <input type="text" name="id">
+		<input type="submit">
 	</form> 
+	<a href ="/about">About Us</a>
+	<hr>
+	<a href ="/index1">Index-1</a>
 	
 </body>
 </html>
